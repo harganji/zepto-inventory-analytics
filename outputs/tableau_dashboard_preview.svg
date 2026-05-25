@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f7f9fc"/>
+  <text x="48" y="58" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#172033">Zepto Inventory Dashboard</text>
+  <text x="48" y="88" font-family="Arial, sans-serif" font-size="15" fill="#64748b">Tableau Public dashboard design using cleaned Zepto inventory data</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(48 122)"><rect width="160" height="86" rx="8" fill="#fff" stroke="#d9e2ef"/><text x="16" y="36" font-size="26" font-weight="700" fill="#0f172a">3,727</text><text x="16" y="64" font-size="13" fill="#64748b">Total SKUs</text></g>
+    <g transform="translate(228 122)"><rect width="160" height="86" rx="8" fill="#fff" stroke="#d9e2ef"/><text x="16" y="36" font-size="26" font-weight="700" fill="#0f172a">453</text><text x="16" y="64" font-size="13" fill="#64748b">Out of Stock</text></g>
+    <g transform="translate(408 122)"><rect width="160" height="86" rx="8" fill="#fff" stroke="#d9e2ef"/><text x="16" y="36" font-size="26" font-weight="700" fill="#0f172a">12.15%</text><text x="16" y="64" font-size="13" fill="#64748b">OOS Rate</text></g>
+    <g transform="translate(588 122)"><rect width="190" height="86" rx="8" fill="#fff" stroke="#d9e2ef"/><text x="16" y="36" font-size="25" font-weight="700" fill="#0f172a">Rs. 2.24M</text><text x="16" y="64" font-size="13" fill="#64748b">Inventory Value</text></g>
+    <g transform="translate(798 122)"><rect width="160" height="86" rx="8" fill="#fff" stroke="#d9e2ef"/><text x="16" y="36" font-size="26" font-weight="700" fill="#0f172a">7.62%</text><text x="16" y="64" font-size="13" fill="#64748b">Avg Discount</text></g>
+    <g transform="translate(978 122)"><rect width="160" height="86" rx="8" fill="#fff" stroke="#d9e2ef"/><text x="16" y="36" font-size="25" font-weight="700" fill="#0f172a">Rs. 141.89</text><text x="16" y="64" font-size="13" fill="#64748b">Avg Sell Price</text></g>
+  </g>
+  <g transform="translate(48 248)" font-family="Arial, sans-serif">
+    <rect width="650" height="388" rx="8" fill="#fff" stroke="#d9e2ef"/>
+    <text x="24" y="36" font-size="19" font-weight="700" fill="#172033">Inventory Value by Category</text>
+    <g font-size="13" fill="#334155">
+      <text x="24" y="78">Cooking Essentials</text><rect x="190" y="64" width="390" height="20" fill="#4e79a7"/><text x="592" y="79">337k</text>
+      <text x="24" y="116">Munchies</text><rect x="190" y="102" width="390" height="20" fill="#4e79a7"/><text x="592" y="117">337k</text>
+      <text x="24" y="154">Paan Corner</text><rect x="190" y="140" width="312" height="20" fill="#4e79a7"/><text x="514" y="155">270k</text>
+      <text x="24" y="192">Personal Care</text><rect x="190" y="178" width="312" height="20" fill="#4e79a7"/><text x="514" y="193">270k</text>
+      <text x="24" y="230">Chocolates</text><rect x="190" y="216" width="259" height="20" fill="#4e79a7"/><text x="461" y="231">224k</text>
+      <text x="24" y="268">Ice Cream</text><rect x="190" y="254" width="259" height="20" fill="#4e79a7"/><text x="461" y="269">224k</text>
+      <text x="24" y="306">Packaged Food</text><rect x="190" y="292" width="259" height="20" fill="#4e79a7"/><text x="461" y="307">224k</text>
+      <text x="24" y="344">Home Cleaning</text><rect x="190" y="330" width="142" height="20" fill="#4e79a7"/><text x="344" y="345">123k</text>
+    </g>
+  </g>
+  <g transform="translate(730 248)" font-family="Arial, sans-serif">
+    <rect width="410" height="178" rx="8" fill="#fff" stroke="#d9e2ef"/>
+    <text x="24" y="36" font-size="19" font-weight="700" fill="#172033">Stock Availability</text>
+    <circle cx="105" cy="102" r="48" fill="#59a14f"/>
+    <path d="M105 54 A48 48 0 0 1 139 136 L105 102 Z" fill="#e15759"/>
+    <circle cx="105" cy="102" r="24" fill="#fff"/>
+    <rect x="196" y="78" width="14" height="14" fill="#59a14f"/><text x="220" y="90" font-size="14" fill="#334155">In Stock: 87.85%</text>
+    <rect x="196" y="112" width="14" height="14" fill="#e15759"/><text x="220" y="124" font-size="14" fill="#334155">Out of Stock: 12.15%</text>
+  </g>
+  <g transform="translate(730 458)" font-family="Arial, sans-serif">
+    <rect width="410" height="178" rx="8" fill="#fff" stroke="#d9e2ef"/>
+    <text x="24" y="36" font-size="19" font-weight="700" fill="#172033">Top Discounted Products</text>
+    <g font-size="12" fill="#334155">
+      <text x="24" y="70" font-weight="700">Product</text><text x="260" y="70" font-weight="700">Category</text><text x="350" y="70" font-weight="700">Disc.</text>
+      <line x1="24" y1="82" x2="386" y2="82" stroke="#e2e8f0"/>
+      <text x="24" y="106">Top discounted item</text><text x="260" y="106">Grocery</text><text x="350" y="106">50%</text>
+      <text x="24" y="130">High value deal</text><text x="260" y="130">Munchies</text><text x="350" y="130">45%</text>
+      <text x="24" y="154">Best value SKU</text><text x="260" y="154">Personal</text><text x="350" y="154">40%</text>
+    </g>
+  </g>
+</svg>
