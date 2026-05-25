@@ -16,14 +16,16 @@ The project combines SQL, Python, and dashboard analytics to simulate business d
 
 - Grocery and packaged food categories contributed the highest inventory concentration.
 - A measurable percentage of SKUs remained unavailable, highlighting replenishment risks.
-- Premium products showed relatively lower discount intensity.
-- High-discount categories demonstrated stronger promotional dependency.
+- Premium-priced products showed lower discount penetration.
+- Discount-heavy categories demonstrated stronger promotional dependency.
+- Inventory value was concentrated in a limited number of categories, increasing stock exposure risk.
 
 ## Business Recommendations
 
 - Prioritize replenishment planning for high-value stockout categories.
-- Reassess discount strategies for premium products.
+- Reassess discount strategy for premium-priced SKUs.
 - Optimize inventory exposure in over-concentrated categories.
+- Improve stock availability for frequently unavailable product segments.
 
 
 ## Dashboard Preview
