@@ -26,47 +26,18 @@ The project defines business KPIs first, then cleans raw Zepto inventory data, p
 - Average discount percent
 - Average price per gram
 
-## Project Structure
-
-```text
-zepto-inventory-analytics/
-  data/
-    raw/zepto_inventory_raw.csv
-    processed/
-    dashboard/
-  notebooks/
-    01_cleaning_kpis_eda.ipynb
-    02_sql_analysis_dashboard_prep.ipynb
-  outputs/
-  sql/
-    01_schema.sql
-    02_cleaning.sql
-    03_kpi_analysis.sql
-  src/
-    pipeline.py
-    make_notebooks.py
-```
-
 ## How To Run
 
 Using Anaconda:
 
 ```powershell
-cd "C:\Users\saiha\OneDrive\Documents\New project\zepto-inventory-analytics"
-C:\Users\saiha\anaconda3\python.exe src\pipeline.py
-C:\Users\saiha\anaconda3\python.exe src\make_notebooks.py
-C:\Users\saiha\anaconda3\Scripts\jupyter.exe notebook
-```
-
-Or create a dedicated environment:
-
-```powershell
 conda env create -f environment.yml
 conda activate zepto-inventory-analytics
 python src\pipeline.py
-python src\make_notebooks.py
 jupyter notebook
 ```
+
+The pipeline downloads the Zepto CSV automatically if `data/raw/zepto_inventory_raw.csv` is missing.
 
 ## Dashboard Files
 
@@ -86,6 +57,16 @@ Power BI/Tableau suggested pages:
 4. Pricing and Discount Analysis
 5. Product Drilldown
 
+## Repository Structure
+
+```text
+src/                  Python cleaning, KPI, SQL export and dashboard pipeline
+sql/                  Schema, cleaning SQL, KPI analysis SQL
+notebooks/            Jupyter notebooks for EDA and SQL review
+data/dashboard/       Small dashboard summary exports committed to GitHub
+dashboard_notes.md    Power BI DAX measures and Tableau calculated fields
+```
+
 ## Dataset
 
-Dataset: Zepto inventory product catalog dataset, originally published on Kaggle. A public copy of the CSV is included so the project can run offline.
+Dataset: Zepto inventory product catalog dataset, originally published on Kaggle. The project stores source notes in `data/raw/SOURCE.md` and downloads the working CSV during pipeline execution.
