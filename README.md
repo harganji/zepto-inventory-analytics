@@ -4,6 +4,14 @@ End-to-end data analyst portfolio project inspired by Amlan Mohanty's YouTube wa
 
 The project defines business KPIs first, then cleans raw Zepto inventory data, performs SQL/Python analysis, and creates dashboard-ready extracts for Power BI or Tableau.
 
+## Dashboard Preview
+
+![Zepto inventory dashboard preview](outputs/dashboard_preview.jpg)
+
+## Dashboard Platform
+
+The included preview dashboard is built with Python Plotly and exported as an interactive HTML file. The project also exports Excel and CSV tables that are ready to connect in Power BI or Tableau.
+
 ## Business Questions
 
 - Which categories carry the highest product range and inventory value?
@@ -48,6 +56,7 @@ After running the pipeline, use these in Power BI or Tableau:
 - `data/dashboard/category_summary.csv`
 - `data/dashboard/top_discount_products.csv`
 - `outputs/zepto_inventory_dashboard.html`
+- `outputs/dashboard_preview.jpg`
 
 Power BI/Tableau suggested pages:
 
