@@ -12,9 +12,9 @@ The project defines business KPIs first, then cleans raw Zepto inventory data, p
 
 The included preview dashboard is built with Python Plotly and exported as an interactive HTML file. The project also exports Excel and CSV tables that are ready to connect in Power BI or Tableau.
 
-A Tableau Public workbook starter is included at `dashboards/tableau/zepto_inventory_dashboard.twb`, with a Tableau-style PNG preview below.
+A Tableau Public workbook starter is included at `dashboards/tableau/zepto_inventory_dashboard.twb`, with a Tableau-style preview below. The `.twb` is the workbook file; the picture is the separate preview image.
 
-![Tableau dashboard preview](outputs/tableau_dashboard_preview.png)
+![Tableau dashboard preview](outputs/tableau_dashboard_preview.svg)
 
 ## Business Questions
 
@@ -62,6 +62,7 @@ After running the pipeline, use these in Power BI or Tableau:
 - `outputs/zepto_inventory_dashboard.html`
 - `outputs/dashboard_preview.jpg`
 - `outputs/tableau_dashboard_preview.png`
+- `outputs/tableau_dashboard_preview.svg`
 - `dashboards/tableau/zepto_inventory_dashboard.twb`
 
 Power BI/Tableau suggested pages:
