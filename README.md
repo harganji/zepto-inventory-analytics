@@ -1,9 +1,8 @@
-# Zepto Inventory Analytics Portfolio Project
+# Zepto Inventory Analytics
 
-End-to-end data analyst portfolio project inspired by Amlan Mohanty's YouTube walkthrough: **Build SQL Data Analyst Portfolio Project Step-by-Step Guide with Real Zepto Data**.
+End-to-end retail inventory analytics project analyzing Zepto product catalog data to evaluate SKU availability, inventory value, discount performance, stock risks, and category-level business insights.
 
-The project defines business KPIs first, then cleans raw Zepto inventory data, performs SQL/Python analysis, and creates dashboard-ready extracts for Power BI or Tableau.
-
+The project combines SQL, Python, and dashboard analytics to simulate business decision-making for retail operations and inventory optimization.
 ## Dashboard Preview
 
 ![Zepto inventory dashboard preview](outputs/dashboard_preview.jpg)
