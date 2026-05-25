@@ -3,6 +3,16 @@
 End-to-end retail inventory analytics project analyzing Zepto product catalog data to evaluate SKU availability, inventory value, discount performance, stock risks, and category-level business insights.
 
 The project combines SQL, Python, and dashboard analytics to simulate business decision-making for retail operations and inventory optimization.
+
+## Project Highlights
+
+- Processed 3,000+ product records
+- Built 10+ retail KPIs
+- Automated dashboard dataset generation
+- Performed SQL-driven inventory analysis
+- Designed interactive Tableau dashboard
+
+
 ## Dashboard Preview
 
 ![Zepto inventory dashboard preview](outputs/dashboard_preview.jpg)
@@ -36,6 +46,29 @@ A Tableau Public workbook starter is included at `dashboards/tableau/zepto_inven
 - Average selling price
 - Average discount percent
 - Average price per gram
+
+## Tech Stack
+
+- Python (Pandas, NumPy)
+- SQL
+- Plotly
+- Tableau
+- Excel
+- Jupyter Notebook
+
+Raw Dataset
+      ↓
+Data Cleaning (Python/SQL)
+      ↓
+Feature Engineering
+      ↓
+KPI Analysis
+      ↓
+Dashboard Dataset Export
+      ↓
+Tableau Dashboard
+      ↓
+Business Insights
 
 ## How To Run
 
@@ -82,6 +115,13 @@ data/dashboard/       Small dashboard summary exports committed to GitHub
 dashboards/tableau/   Tableau Public workbook starter
 dashboard_notes.md    Power BI DAX measures and Tableau calculated fields
 ```
+
+## Future Improvements
+
+- Demand forecasting
+- Inventory optimization model
+- Category profitability analysis
+- Stockout prediction
 
 ## Dataset
 
