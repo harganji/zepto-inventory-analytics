@@ -1,5 +1,6 @@
 from pathlib import Path
 import sqlite3
+from urllib.request import urlretrieve
 
 import numpy as np
 import pandas as pd
@@ -8,10 +9,17 @@ from plotly.subplots import make_subplots
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_PATH = ROOT / "data" / "raw" / "zepto_inventory_raw.csv"
+DATA_URL = "https://raw.githubusercontent.com/imvinay0/Zepto-MY-SQL-Data-Analysis-Project/main/zepto.csv"
 PROCESSED_DIR = ROOT / "data" / "processed"
 DASHBOARD_DIR = ROOT / "data" / "dashboard"
 OUTPUTS_DIR = ROOT / "outputs"
 DB_PATH = PROCESSED_DIR / "zepto_inventory.db"
+
+
+def ensure_raw_data() -> None:
+    RAW_PATH.parent.mkdir(parents=True, exist_ok=True)
+    if not RAW_PATH.exists():
+        urlretrieve(DATA_URL, RAW_PATH)
 
 
 def clean_products(df: pd.DataFrame) -> pd.DataFrame:
@@ -129,6 +137,7 @@ def make_dashboard(tables: dict[str, pd.DataFrame]) -> None:
 
 
 def main() -> None:
+    ensure_raw_data()
     raw = pd.read_csv(RAW_PATH)
     clean = clean_products(raw)
     tables = build_dashboard_tables(clean)
