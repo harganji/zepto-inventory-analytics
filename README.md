@@ -56,6 +56,8 @@ A Tableau Public workbook starter is included at `dashboards/tableau/zepto_inven
 - Excel
 - Jupyter Notebook
 
+## Data Pipeline Workflow
+
 Raw Dataset
       ↓
 Data Cleaning (Python/SQL)
