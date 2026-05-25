@@ -1,0 +1,14 @@
+name: zepto-inventory-analytics
+channels:
+  - defaults
+dependencies:
+  - python>=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - plotly
+  - sqlalchemy
+  - openpyxl
+  - nbformat
+  - jupyter
