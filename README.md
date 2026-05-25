@@ -12,10 +12,24 @@ The project combines SQL, Python, and dashboard analytics to simulate business d
 - Performed SQL-driven inventory analysis
 - Designed interactive Tableau dashboard
 
+## Key Business Insights
+
+- Grocery and packaged food categories contributed the highest inventory concentration.
+- A measurable percentage of SKUs remained unavailable, highlighting replenishment risks.
+- Premium products showed relatively lower discount intensity.
+- High-discount categories demonstrated stronger promotional dependency.
+
+## Business Recommendations
+
+- Prioritize replenishment planning for high-value stockout categories.
+- Reassess discount strategies for premium products.
+- Optimize inventory exposure in over-concentrated categories.
+
 
 ## Dashboard Preview
 
-![Zepto inventory dashboard preview](outputs/dashboard_preview.jpg)
+outputs/tableau_dashboard_preview.png
+
 
 ## Dashboard Platform
 
