@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<workbook source-build='2024.2.0' source-platform='win' version='18.1'>
+  <document-format-change-manifest />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+  </preferences>
+  <datasources>
+    <datasource caption='Zepto Fact Products' inline='true' name='fact_products'>
+      <connection class='textscan' directory='../../data/dashboard' filename='fact_products.csv' server=''>
+        <relation connection='textscan' name='fact_products' table='fact_products.csv' type='table' />
+      </connection>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='KPI Overview'><table><view><datasources><datasource caption='Zepto Fact Products' name='fact_products' /></datasources></view></table></worksheet>
+    <worksheet name='Inventory Value by Category'><table><view><datasources><datasource caption='Zepto Fact Products' name='fact_products' /></datasources></view></table></worksheet>
+    <worksheet name='Stock Availability'><table><view><datasources><datasource caption='Zepto Fact Products' name='fact_products' /></datasources></view></table></worksheet>
+    <worksheet name='Top Discounted Products'><table><view><datasources><datasource caption='Zepto Fact Products' name='fact_products' /></datasources></view></table></worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Zepto Inventory Dashboard'>
+      <style />
+      <zones>
+        <zone h='900' id='1' type-v2='layout-basic' w='1600' x='0' y='0'>
+          <zone h='220' id='2' name='KPI Overview' type-v2='worksheet' w='1600' x='0' y='0' />
+          <zone h='430' id='3' name='Inventory Value by Category' type-v2='worksheet' w='900' x='0' y='220' />
+          <zone h='430' id='4' name='Stock Availability' type-v2='worksheet' w='700' x='900' y='220' />
+          <zone h='250' id='5' name='Top Discounted Products' type-v2='worksheet' w='1600' x='0' y='650' />
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+</workbook>
